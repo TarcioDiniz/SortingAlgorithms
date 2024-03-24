@@ -12,12 +12,10 @@ public class Main {
         String test_array_2M = "src/main/resources/test-array-2M.txt";
         String test_array_3M = "src/main/resources/test-array-3M.txt";
 
-        int[] arrayTest = {9, 8, 7, 1};
-
         int[] integersArray = FileUtil.readIntegersFromFile(test_array_1M);
 
 
-        System.out.println(Arrays.toString(AlgorithmsApplication.sorting(AlgorithmsType.COUNTING_SORT, arrayTest)));
+        System.out.println(Arrays.toString(AlgorithmsApplication.sorting(AlgorithmsType.COUNTING_SORT, integersArray)));
 
     }
 }
