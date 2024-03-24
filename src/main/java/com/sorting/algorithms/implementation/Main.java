@@ -17,7 +17,7 @@ public class Main {
         int[] integersArray = FileUtil.readIntegersFromFile(test_array_1M);
 
 
-        System.out.println(Arrays.toString(AlgorithmsApplication.sorting(AlgorithmsType.MERGE_SORT, arrayTest)));
+        System.out.println(Arrays.toString(AlgorithmsApplication.sorting(AlgorithmsType.INSERTION_SORT, arrayTest)));
 
     }
 }
