@@ -1,0 +1,10 @@
+MERGE_SORT:
+Array 3M: 137ms
+Array 1M: 39ms
+Array 2M: 69ms
+
+INSERTION_SORT:
+Array 3M: 422687ms
+Array 1M: 37939ms
+Array 2M: 154564ms
+

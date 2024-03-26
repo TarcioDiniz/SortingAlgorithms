@@ -9,7 +9,6 @@ public class Benchmark {
 
         int[] array = generateRandomArray(size);
 
-        // Executar o benchmark e obter o tempo de execução médio
         double totalTime = 0;
         for (int i = 0; i < 10; i++) {
             totalTime += benchmark(array);

@@ -24,12 +24,12 @@ public class AlgorithmsApplication {
 
     private static final Map<AlgorithmsType, AlgorithmsStrategy> mapAlgorithms = new HashMap<AlgorithmsType, AlgorithmsStrategy>() {
         {
-            put(AlgorithmsType.BUBBLE_SORT, new BubbleSortStrategy());
-            put(AlgorithmsType.SELECTION_SORT, new SelectionSortStrategy());
+            //put(AlgorithmsType.BUBBLE_SORT, new BubbleSortStrategy());
+            //put(AlgorithmsType.SELECTION_SORT, new SelectionSortStrategy());
             put(AlgorithmsType.INSERTION_SORT, new InsertionSortStrategy());
             put(AlgorithmsType.MERGE_SORT, new MergeSortStrategy());
-            put(AlgorithmsType.QUICK_SORT, new QuickSortStrategy());
-            put(AlgorithmsType.COUNTING_SORT, new CountingSortStrategy());
+            //put(AlgorithmsType.QUICK_SORT, new QuickSortStrategy());
+//            put(AlgorithmsType.COUNTING_SORT, new CountingSortStrategy());
         }
     };
 
